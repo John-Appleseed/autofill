@@ -23,7 +23,7 @@
         "username"    : "Stark",
         "password"    : "wintercomes",
         "confirmation": "wintercomes",
-        "zipcode"     : "69523", 
+        "zip"     : "69523", 
         "country"     : "United States", 
         "state"       : "North Dakota", 
         "city"        : "Wichita", 
@@ -54,7 +54,7 @@
                 fieldValueMap.username = data.results[0].user.username;
                 fieldValueMap.password = data.results[0].user.password;
                 fieldValueMap.confirmation = data.results[0].user.password;
-                fieldValueMap.zipcode = data.results[0].user.location.zip;
+                fieldValueMap.zip = data.results[0].user.location.zip;
                 fieldValueMap.state = data.results[0].user.location.state;
                 fieldValueMap.city = data.results[0].user.location.city;
                 fieldValueMap.address = data.results[0].user.location.address;
