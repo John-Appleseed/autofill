@@ -1,4 +1,4 @@
-Random User Form Auto-Fill Tool
+User Form Auto-Fill Tool
 -------------------------------------
 
 This is a fork of: https://github.com/dsheiko/autofill 
